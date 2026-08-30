@@ -8,7 +8,7 @@
 }
 
 /* Global Section Style */
-.section-title{
+.section-title {
   font-size: 35px;
   font-weight: 700;
   color: #181818;
@@ -51,10 +51,8 @@ img {
   font-size: 18px;
 }
 
-.primary {
-  background-color: #fd6e0a;
-  color: white;
-  border: none;
+/* Button Style */
+.btn {
   padding: 18px 36px;
   border-radius: 5px;
   font-size: 20px;
@@ -62,16 +60,16 @@ img {
   cursor: pointer;
 }
 
-.secondary {
-  background-color: white;
+.btn-primary {
+  background: #fd6e0a;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background: white;
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
-  border-radius: 5px;
-  padding: 18px 36px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: normal;
-  cursor: pointer;
 }
 
 .hero-left-btn-parent {
@@ -82,11 +80,11 @@ img {
 }
 
 /* hero section style */
-.hero-parent-root {
+.hero-section {
   background-color: #fff8f3;
 }
 
-.hero-parent {
+.hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,7 +109,7 @@ img {
 
 /* About Us CSS */
 
-.about-parent {
+.about-section {
   background-color: #fff8f3;
   margin: 130px auto;
   padding: 130px 156px;
@@ -119,7 +117,7 @@ img {
   text-align: center;
 }
 
-.about-parent p {
+.about-section p {
   margin: 30px 0;
   font-size: 18px;
   font-weight: normal;
@@ -127,18 +125,18 @@ img {
   color: #757575;
 }
 
-.about-box-parent {
+.about-info {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
-.about-box-parent h4 {
+.about-info h4 {
   font-size: 18px;
   margin: 0;
 }
 
-.about-box-parent p {
+.about-info p {
   font-size: 18px;
   font-weight: normal;
   color: #757575;
@@ -155,23 +153,23 @@ img {
 
 /* What I Do */
 
-.what-i-do-parent {
+.skill-section {
   text-align: center;
 }
 
-.what-i-do-parent h2 {
+.skill-section h2 {
   font-size: 35px;
   font-weight: 700;
   color: #181818;
 }
-.what-i-do-parent p {
+.skill-section p {
   font-size: 18px;
   font-weight: 500;
   color: #757575;
   margin-top: 30px;
 }
 
-.what-i-do-card-container {
+.skill-section-container {
   margin-top: 50px;
   margin-bottom: 130px;
   display: flex;
@@ -179,13 +177,13 @@ img {
   gap: 24px;
 }
 
-.what-i-do-card-container .what-i-do-card {
+.skill-section-container .skill-section-card {
   padding: 30px 30px;
   border: 1px solid #e3e2e2;
 }
 
 /* My Amazing Work Section Start */
-.my-amazing-parent {
+.portfolio-section {
   text-align: center;
 }
 
@@ -209,26 +207,26 @@ img {
   object-fit: cover;
 }
 
-.image-1{
-grid-area:one;
+.image-1 {
+  grid-area: one;
 }
 
-.image-2{
-grid-area:two;
+.image-2 {
+  grid-area: two;
 }
 
-.image-3{
-grid-area:three;
+.image-3 {
+  grid-area: three;
 }
 
-.image-4{
-grid-area:four;
+.image-4 {
+  grid-area: four;
 }
 
-.image-5{
-grid-area:five;
+.image-5 {
+  grid-area: five;
 }
 
-.image-6{
-grid-area:six;
+.image-6 {
+  grid-area: six;
 }
